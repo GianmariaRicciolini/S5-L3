@@ -1,3 +1,42 @@
-main {
+.total {
   display: flex;
+  flex-direction: column;
+  font-family: Inter;
+  background-color: #fbf7e3;
+  padding-bottom: 1.5em;
+  color: #612407;
+  border-radius: 100px;
+  height: auto;
+  width: 400px;
+  overflow: hidden;
+  align-items: center;
+  font-size: 1.4rem;
+}
+.card {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.price {
+  font-size: 1.4rem;
+  padding-right: 1em;
+}
+
+button {
+  margin: auto;
+  background-color: #f3df85;
+  border: 0;
+  border-radius: 50px;
+  font-size: 1.4rem;
+  padding: 0.5em 1.5em;
+}
+
+.text {
+  line-height: 10px;
+  padding: 1em 2em;
+}
+h1 {
+  font-size: 1.8rem;
 }
